@@ -1,43 +1,63 @@
 # React NASA Tech Test
 
-This is a React web application that allows users to search for images using keywords. The app returns images related to the search query if it is successful.
+This is a React web application that allows users to search for images using keywords. The app retrieves and displays images related to the search query if the request is successful.
 
-## **Description**
+## Description
 
-For the technical test, I was asked to create a web application that uses React to enable image search using keywords.
+For the technical test, I was given the task to create a web application that utilises React to enable image search functionality based on keywords. The application makes use of the NASA API to retrieve relevant images.
 
-## **Screenshots**
+## Built With
 
-![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/abigailturner/projects/tech-test/Screenshot%202023-04-01%20at%2021.12.33.png?version%3D1680380468292)
+This app was built with the following technologies:
 
-## **Built With**
+- React: A JavaScript library for building user interfaces.
 
-This app was built with:
+## Testing Utilities Used
 
-* React
+To ensure the quality of the application, the following testing utilities were employed:
 
-## **Testing Utilities Used**
-  
-* Jest
-* React Testing Library
+- Jest: A JavaScript testing framework.
+- React Testing Library: A library for testing React components.
 
-## **Packages Used**
+## Packages Used
 
-* Axios
+The following package was utilised in the development of this application:
 
-## **Running the App**
+- Axios: A promise-based HTTP client for making API requests.
 
-To run this app on your local machine, you will need to clone the repository and install the dependencies using npm install. Once that is done, you can start the app by running npm start.
+## Running the App
 
-## **Future Improvements**
+To run this app on your local machine, you need to follow these steps:
 
-If I had more time, I would add:
+1. Clone the repository:
 
-* Pagination to the search results.
-* The ability to filter search results by image type or color.
-* A feature to allow users to save their favorite images.
-* An option to download images directly from the search results.
+   ```shell
+   git clone https://github.com/your-username/tech-test.git
+   ```
 
-## **Author**
+2. Install the dependencies:
+
+   ```shell
+   npm install
+   ```
+
+3. Start the app:
+
+   ```shell
+   npm start
+   ```
+
+   The application will be accessible in your web browser at `http://localhost:3000`.
+
+## Future Improvements
+
+Given more time, I would implement the following enhancements:
+
+- Pagination to navigate through search results.
+- Filters to refine search results based on image type or colour.
+- Favourite image functionality to allow users to save their preferred images.
+- Download option to directly download images from the search results.
+
+## Author
 
 This app was created by Abi Turner.
